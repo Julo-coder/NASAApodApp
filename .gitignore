@@ -13,3 +13,4 @@
 .externalNativeBuild
 .cxx
 local.properties
+./app/main/java/com/example/nasaproject/utils/Constants.kt
