@@ -72,6 +72,16 @@ dependencies {
     implementation ("androidx.lifecycle:lifecycle-livedata-ktx:2.6.1")
     implementation ("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
     implementation ("com.google.android.material:material:1.9.0")
+    implementation ("com.google.android.material:material:1.6.1")
+
+    // Material Design
+    implementation ("com.google.android.material:material:1.6.1")
+
+    // CardView
+    implementation ("androidx.cardview:cardview:1.0.0")
+
+    // ConstraintLayout (optional, but recommended)
+    implementation ("androidx.constraintlayout:constraintlayout:2.1.4")
 
 
     testImplementation(libs.junit)

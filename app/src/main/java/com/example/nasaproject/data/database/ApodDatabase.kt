@@ -5,7 +5,11 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import android.content.Context
 
-@Database(entities = [ApodEntity::class], version = 1)
+@Database(
+    entities = [ApodEntity::class],
+    version = 1,
+    exportSchema = false
+)
 abstract class ApodDatabase : RoomDatabase() {
     abstract fun apodDao(): ApodDao
 

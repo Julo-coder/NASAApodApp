@@ -7,6 +7,6 @@ import androidx.room.PrimaryKey
 data class ApodEntity(
     @PrimaryKey val date: String,
     val title: String,
-    val url: String,
-    val explanation: String
+    val explanation: String,
+    val url: String
 )
